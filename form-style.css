@@ -1,0 +1,53 @@
+li {list-style-type: none;
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    .mail {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    width: 800px;
+    background : #7700ff;
+    border: 1px soild rgb(255, 0, 0);
+    }
+    .mail h1 {
+    
+    margin: auto;
+    background-color: rgb(255, 208, 0);
+    margin-left: 20px;
+    margin-right: 20px; 
+    text-align: center;
+    }
+
+    input {
+        font-size: 25pt;
+    }
+    input:focus, textarea:focus{
+    background-color: rgb(55, 255, 15);
+    
+    }
+    input syr {
+    font-size: 13pt;
+  
+    }
+    .rq {
+    color: #00f7ff;
+    font-size: 14pt;
+    }  
+    
+    
+    body {
+        
+        background-color: rgb(70, 70, 70);
+    }
+    .mail h3 {
+   
+        margin: auto;
+        background-color: rgb(255, 0, 212);
+        
+        padding-top: 1px;
+        padding-bottom: 1px;
+        padding-right: 1px;
+        padding-left: 1px;
+        }
