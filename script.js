@@ -22,17 +22,37 @@ console.log(output);
 for (var i = 0, sum = 0; i < output.length; sum += output[i++]);
 
 console.log(sum);
+debugger
 
+function dNControl(number1) {
+  
+  var firstNumber = null;
+  for (let i = 0; i < number1.length; i++) {
+
+      var number = parseInt(number1[i]);
+      if (firstNumber == null) {
+          firstNumber = number;
+      }
+      else {
+          if (firstNumber != number) {
+              return true
+          }
+      }
+  }
+  return false
+}
+debugger
 
 if(sum >=16 && inputtxt.value.match(cardno) || inputtxt.value.match(cardno2))
 
 {
  
-  if (output[0] != output[1])
+  if (dNControl(number1) == true)
   {
   alert("Credit Card Number Is Valid");
   return true;
-  }
+ 
+  } 
   else 
   {
     alert("Oops! Credit Card Number Is Invalid!");
@@ -45,4 +65,3 @@ alert("Oops!Credit Card Number Is Invalid!");
 return false;
 }
 }
-
