@@ -35,13 +35,13 @@ if(sum >=16 && inputtxt.value.match(cardno) || inputtxt.value.match(cardno2))
   }
   else 
   {
-    alert("Credit Card Number Is Invalid!");
+    alert("Oops! Credit Card Number Is Invalid!");
   return false;
   }
 }
 else
 {
-alert("Credit Card Number Is Invalid!");
+alert("Oops!Credit Card Number Is Invalid!");
 return false;
 }
 }
